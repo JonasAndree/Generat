@@ -1,0 +1,84 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #c0c0c0;
+}
+header {
+	position: absolute;
+	border-radius: 15px 25px;
+	background-color: white;
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	right: 10px;
+	top: 10px;
+}
+main {
+	position: absolute;
+	border-radius: 15px 25px;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	padding: 20px;
+}
+button {
+	cursor: pointer;
+}
+input:hover {
+    filter:brightness(105%);
+}
+button:hover {
+    filter:brightness(105%);
+}
+
+#text-anser {
+	position: absolute;
+	bottom: 90px;
+}
+#input {
+	position: absolute;
+	width: 320px;
+	height: 40px;
+	padding: 0px 0px 0px 15px;
+	border-radius: 15px 25px;
+	border-color: #6cb6ff;
+	bottom: 60px;
+}
+#test-button {
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	border-radius: 15px 25px;
+	background-color: #6cb6ff;
+    right: 10px;
+	bottom: 60px;
+}
+#submit_button {
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	border-radius: 15px 25px;
+	border-color: #e5ecfc;
+	background-color: #e5ecfc;
+	bottom: 10px;
+	right: 10px;
+}
+#res-container {
+	position: absolute;
+	bottom: 10px;
+}
+#info-res {
+	float: left;
+	margin-top: -20px;
+}
+.answers {
+	float: left;
+	width: 28px;
+	height: 10px;
+	background-color: #e5ecfc;
+	border-radius: 15px 25px;
+	margin-right: 1px;
+	transition: background-color 300ms linear;
+	border: thin solid #dbe4fb;
+}
