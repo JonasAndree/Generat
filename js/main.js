@@ -5,13 +5,9 @@ if (!parseInt(localStorage.getItem('arithmeticCorrect'))) {
 showNumberOfCorrect();
 var stage = false; 
 
-
-
-
 function correct() {
 	var answerContainer = document.getElementById('input');
 	var answer = answerContainer.value;
-	
 	if (answer == localStorage.getItem('arithmeticAnswer') ){
 		stage = true;
 		answerContainer.style.backgroundColor = "#95ff60";
